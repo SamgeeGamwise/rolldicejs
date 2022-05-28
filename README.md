@@ -20,6 +20,13 @@ $ yarn add rolldicejs
 import Dice from 'rolldicejs';
 
 // CommonJs
-const Dice = require('rolldicejs');
+const Dice = require('rolldicejs').default;
+```
 
 ## Docs
+
+```
+Dice.roll(numOfSides: number) -> number
+Dice.roll(count: number, numOfSides: number) -> number
+Dice.roll(count: number, numOfSides: number, details: boolean) -> number[]
+```
