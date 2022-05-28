@@ -6,20 +6,20 @@ Slim and simple dice roller
 
 **Install with npm**
 ```
-$ npm install dicerollerjs
+$ npm install rolldicejs
 ```
 **Install with yarn**
 ```
-$ yarn add dicerollerjs
+$ yarn add rolldicejs
 ```
 
 ## Start using in your app
 
 ```js
 // ESM
-import Dice from 'dicerollerjs';
+import Dice from 'rolldicejs';
 
 // CommonJs
-const Dice = require('dicerollerjs');
+const Dice = require('rolldicejs');
 
 ## Docs

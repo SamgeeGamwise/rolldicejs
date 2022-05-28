@@ -1,12 +1,12 @@
 {
   "name": "rolldicejs",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "JavaScript library written in TypeScript for generating dice rolls",
   "files": [
     "lib/**/*"
   ],
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
+  "main": "lib/Dice.js",
+  "types": "lib/Dice.d.ts",
   "scripts": {
     "build": "tsc",
     "format": "prettier --write \"src/**/*.ts\"",
@@ -21,9 +21,8 @@
     "Games"
   ],
   "homepage": "https://github.com/Xoelos/rolldicejs",
-  "author": "",
+  "author": "Samuel Krohn",
   "license": "ISC",
-  "dependencies": {},
   "devDependencies": {
     "prettier": "^2.4.1",
     "tslint": "^6.1.3",
