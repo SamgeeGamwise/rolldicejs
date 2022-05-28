@@ -1,3 +1,3 @@
-import Dice from "./models/Dice"
+import Dice from './models/Dice'
 
 export default Dice

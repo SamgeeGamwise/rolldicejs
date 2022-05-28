@@ -3,7 +3,7 @@ export default class Dice {
     public static roll(count: number, max: number): number
     public static roll(count: number, max: number, details: boolean): number[]
     public static roll(first: number, second?: number, details: boolean = false): number | number[] {
-        if (typeof second === "undefined") {
+        if (typeof second === 'undefined') {
             return Dice.random(1, first)
         } else if (details) {
             const rollList: number[] = []
