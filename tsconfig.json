@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "target":"ES5",
+      "declaration": true,
+      "outDir": "./lib",
+      "strict": true
+    },
+    "include": ["src"],
+    "exclude": [
+      "lib",
+      "node_modules", 
+      "**/__tests__/*"
+    ]
+}
