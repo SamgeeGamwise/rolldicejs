@@ -20,6 +20,7 @@
     "Dice",
     "Games"
   ],
+  "homepage": "https://github.com/Xoelos/dicerollerjs",
   "author": "",
   "license": "ISC",
   "dependencies": {},
