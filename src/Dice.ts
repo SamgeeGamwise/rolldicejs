@@ -12,7 +12,7 @@ export default class Dice {
                     .map((stringVal: string) => Number(stringVal))
 
                 if (amounts.length === 2) {
-                    if (typeof second !== "number" && second) {
+                    if (typeof second !== 'number' && second) {
                         const rollList: number[] = []
                         for (let i = 0; i < amounts[0]; i++) {
                             rollList.push(Dice.random(1, amounts[1]))
@@ -30,14 +30,13 @@ export default class Dice {
                 }
             } else if (typeof second === 'undefined') {
                 return Dice.random(1, first)
-            } else if (details && typeof second !== "boolean") {
+            } else if (details && typeof second !== 'boolean') {
                 const rollList: number[] = []
                 for (let i = 0; i < first; i++) {
                     rollList.push(Dice.random(1, second))
                 }
                 return rollList
-            } else if (typeof second !== "boolean") {
-
+            } else if (typeof second !== 'boolean') {
                 let sum: number = 0
                 for (let i = 0; i < first; i++) {
                     sum += Dice.random(1, second)
@@ -49,7 +48,6 @@ export default class Dice {
         } catch {
             return 0
         }
-
     }
 
     private static random(min: number, max: number) {
