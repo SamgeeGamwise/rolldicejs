@@ -1,4 +1,5 @@
 export default class Dice {
+    public static roll(dnd: string): number
     public static roll(dnd: string, details: boolean): number
     public static roll(numOfSides: number): number
     public static roll(diceCount: number, numOfSides: number): number
