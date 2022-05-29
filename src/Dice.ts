@@ -1,4 +1,4 @@
-export class Dice {
+export default class Dice {
     public static roll(max: number): number
     public static roll(count: number, max: number): number
     public static roll(count: number, max: number, details: boolean): number[]
