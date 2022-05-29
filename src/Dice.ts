@@ -4,8 +4,11 @@ export default class Dice {
     public static roll(diceCount: number, numOfSides: number): number
     public static roll(diceCount: number, numOfSides: number, details: boolean): number[]
     public static roll(first: number | string, second?: number, details: boolean = false): number | number[] {
-        if (typeof first !== "number") {
-            const amounts: number[] = first.toLowerCase().split("d").map((stringVal: string) => Number(stringVal))
+        if (typeof first !== 'number') {
+            const amounts: number[] = first
+                .toLowerCase()
+                .split('d')
+                .map((stringVal: string) => Number(stringVal))
 
             if (amounts.length === 2) {
                 if (details) {
